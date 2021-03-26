@@ -1,0 +1,225 @@
+name: simpleinterest
+description: A new Flutter application.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+  scoped_model: ^1.0.1
+  http: ^0.12.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/image/map.jpg
+    - assets/image/mask6.jpg
+    - assets/image/Blusher/blusher1.png
+    - assets/image/Blusher/blusher2.jpg
+    - assets/image/Blusher/blusher3.jpg
+    - assets/image/Blusher/blusher4.png
+    - assets/image/Blusher/blusher5.jpg
+    - assets/image/Blusher/blusher6.jpg
+    - assets/image/Blusher/blusher7.jpg
+    - assets/image/Blusher/blusher9.jpg
+    - assets/image/Blusher/blusher10.jpg
+    - assets/image/Blusher/blusher11.jpg
+    - assets/image/Blusher/blusher12.jpg
+    - assets/image/Blusher/blusher13.jpg
+    - assets/image/Blusher/blusher14.jpg
+    - assets/image/Bodylotion/body1.jpg
+    - assets/image/Bodylotion/body2.png
+    - assets/image/Bodylotion/body3.jpg
+    - assets/image/Bodylotion/body4.jpg
+    - assets/image/Brushes/brush1.jpg
+    - assets/image/Brushes/brush2.jpg
+    - assets/image/Brushes/brush3.jpg
+    - assets/image/Brushes/brush4.jpg
+    - assets/image/Brushes/brush5.jpg
+    - assets/image/Brushes/brush6.jpg
+    - assets/image/Brushes/brush7.png
+    - assets/image/Brushes/brush8.jpg
+    - assets/image/Brushes/brush9.jpg
+    - assets/image/Brushes/brush10.jpg
+    - assets/image/Brushes/brush11.jpg
+    - assets/image/Brushes/brush12.jpg
+    - assets/image/Brushes/brush13.jpg
+    - assets/image/CleanToneM/3in1tone5.jpg
+    - assets/image/CleanToneM/tone1.jpg
+    - assets/image/CleanToneM/tone2.jpg
+    - assets/image/CleanToneM/tone3.jpg
+    - assets/image/CleanToneM/tone4.jpg
+    - assets/image/Conditioner/con1.jpg
+    - assets/image/Conditioner/con2.png
+    - assets/image/Conditioner/con3.png
+    - assets/image/Conditioner/con4.jpg
+    - assets/image/Conditioner/con5.jpg
+    - assets/image/Conditioner/con6.jpg
+    - assets/image/Conditioner/con7.jpg
+    - assets/image/Conditioner/con8.jpg
+    - assets/image/Conditioner/con9.jpg
+    - assets/image/Conditioner/con1.jpg
+    - assets/image/DaynightCream/serum1.jpg
+    - assets/image/DaynightCream/serum2.jpg
+    - assets/image/DaynightCream/serum3.jpg
+    - assets/image/DaynightCream/serum4.jpg
+    - assets/image/DaynightCream/serum5.jpg
+    - assets/image/DaynightCream/serum6.jpg
+    - assets/image/DaynightCream/serum7.jpg
+    - assets/image/DaynightCream/serum8.jpg
+    - assets/image/DaynightCream/serum9.jpg
+    - assets/image/Deo/deo1.jpg
+    - assets/image/Deo/deo2.jpg
+    - assets/image/Deo/deo3.png
+    - assets/image/Deo/deo4.jpg
+    - assets/image/Deo/deo5.jpg
+    - assets/image/Deo/deo6.jpg
+    - assets/image/Deo/deo7.png
+    - assets/image/Deo/deo8.jpg
+    - assets/image/Deo/deo9.jpg
+    - assets/image/Deo/deo10.jpg
+    - assets/image/Deo/deo11.jpg
+    - assets/image/Deo/deo12.jpg
+    - assets/image/Deo/deo13.jpg
+    - assets/image/EyeEnhancers/enhance1.jpg
+    - assets/image/EyeEnhancers/enhance2.jpg
+    - assets/image/EyeEnhancers/enhance3.jpg
+    - assets/image/EyeEnhancers/enhance4.jpg
+    - assets/image/EyeEnhancers/enhance5.jpg
+    - assets/image/EyeEnhancers/enhance6.png
+    - assets/image/EyeEnhancers/enhance7.jpg
+    - assets/image/EyeShadow/eye1.jpg
+    - assets/image/EyeShadow/eye2.jpg
+    - assets/image/EyeShadow/eye3.jpg
+    - assets/image/EyeShadow/eye4.jpg
+    - assets/image/EyeShadow/eye5.jpg
+    - assets/image/EyeShadow/eye6.jpg
+    - assets/image/EyeShadow/eye7.jpg
+    - assets/image/EyeShadow/eye8.jpg
+    - assets/image/FaceWash/face1.jpg
+    - assets/image/FaceWash/face2.jpg
+    - assets/image/FaceWash/face3.jpg
+    - assets/image/FaceWash/face4.jpg
+    - assets/image/Lipstic/lipstick1.jpg
+    - assets/image/Lipstic/lipstick2.jpg
+    - assets/image/Lipstic/lipstick3.jpg
+    - assets/image/Lipstic/lipstick4.jpg
+    - assets/image/Lipstic/lipstick5.jpg
+    - assets/image/Lipstic/lipstick6.jpg
+    - assets/image/Lipstic/lipstick7.jpg
+    - assets/image/Lipstic/lipstick8.jpg
+    - assets/image/Lipstic/lipstick9.jpg
+    - assets/image/Lipstic/lipstick10.jpg
+    - assets/image/Lipstic/lipstick11.jpg
+    - assets/image/Lipstic/lipstick12.png
+    - assets/image/Mask/mask1.jpg
+    - assets/image/Mask/mask2.jpg
+    - assets/image/Mask/mask3.jpg
+    - assets/image/Mask/mask4.jpg
+    - assets/image/Mask/mask5.jpg
+    - assets/image/Mask/mask6.jpg
+    - assets/image/Mask/mask7.jpg
+    - assets/image/NailEnamels/nail1.jpg
+    - assets/image/NailEnamels/nail2.jpg
+    - assets/image/NailEnamels/nail3.jpg
+    - assets/image/NailEnamels/nail4.jpg
+    - assets/image/NailEnamels/nail5.jpg
+    - assets/image/NailEnamels/nail6.jpg
+    - assets/image/NailEnamels/nail7.jpg
+    - assets/image/NailEnamels/nail8.jpg
+    - assets/image/NailEnamels/nail9.jpg
+    - assets/image/NailEnamels/nail10.jpg
+    - assets/image/NailEnamels/nail11.jpg
+    - assets/image/NailEnamels/nail12.jpg
+    - assets/image/NailEnamels/nail13.jpg
+    - assets/image/NailEnamels/nail14.jpg
+    - assets/image/Random/ran1.jpg
+    - assets/image/Random/ran2.jpg
+    - assets/image/Random/ran3.jpg
+    - assets/image/Random/ran4.jpg
+    - assets/image/Random/ran5.jpg
+    - assets/image/Random/ran6.jpg
+    - assets/image/Random/ran7.jpg
+    - assets/image/Random/ran8.jpg
+    - assets/image/Random/ran9.jpg
+    - assets/image/Random/ran10.jpg
+    - assets/image/Sampoo/sham1.png
+    - assets/image/Sampoo/sham2.png
+    - assets/image/Sampoo/sham3.jpg
+    - assets/image/Sampoo/sham4.jpg
+    - assets/image/Sampoo/sham5.jpg
+    - assets/image/Sampoo/sham6.jpg
+    - assets/image/Sampoo/sham7.jpg
+    - assets/image/Scrub/scrub1.jpg
+    - assets/image/Scrub/scrub2.jpg
+    - assets/image/Scrub/scrub3.jpg
+    - assets/image/Scrub/scrub4.jpg
+    - assets/image/Scrub/scrub5.jpg
+    - assets/image/Scrub/scrub6.jpg
+    - assets/image/Scrub/scrub7.jpg
+    - assets/image/Scrub/scrub8.jpg
+    - assets/image/SunsCream/sun1.jpg
+    - assets/image/SunsCream/sun2.png
+    - assets/image/SunsCream/sun3.jpg
+    - assets/image/SunsCream/sun4.jpg
+    - assets/image/SunsCream/sun5.jpg
+    - assets/image/SunsCream/sun6.jpg
+    - assets/image/SunsCream/sun7.jpg
+    - assets/image/SunsCream/sun8.jpg
+
+        # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Pacifico
+      fonts:
+        - asset: assets/fonts/Pacifico-Regular.ttf
+    - family: AmaticSC
+      fonts:
+        - asset: assets/fonts/AmaticSC-Regular.ttf
+    - family: Bellota
+      fonts:
+        - asset: assets/fonts/Bellota-Regular.ttf
+
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
